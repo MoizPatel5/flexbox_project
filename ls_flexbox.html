@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            flex-direction:row;
+            /*align-items: center;*/
+            /* border: 1px solid black; */
+            /* margin: 50px; */
+            /* justify-content: space-between; */
+            /* align-items: center; */
+            flex-wrap: wrap;
+            /* border: 1px solid black; */
+            width: 100%;
+        }
+        .fitem{  
+            border: 1px solid black;
+            width: 270px;
+            height: 300x;
+            margin: 20px;
+        }
+        .item2{
+            order: 3;
+        }
+        .item4{
+            order: 4;
+        }
+    </style>
+</head>
+<body>
+   <h1>Welcome to our store</h1> 
+   <div class="container">
+   <!--Div 1-->
+   <div class="fitem item1">
+    <img src="asuslogo2.png" alt="asus logo" height="150px" width="270px"><hr>
+    <h4>Latest Models</h4>
+    <ul>
+        <li>Asus Vivobook 15 X1502ZA</li>
+        <li>Asus ROG Zephyrus G14 2023</li>
+        <li>Asus N202 Gaming Laptop</li>
+    </ul>
+    <a align="center" href="asus_models.html" target="_parent">See more models</a>
+   </div>
+   <!--Div 2-->
+   <div class="fitem item2">
+    <label for="f1"> <img src="dlogo2.png" alt="dell logo" height="150px" width="270px"></label><hr>
+    <h4>Latest Models</h4>
+    <ul>
+        <li>Dell Alienware m18</li>
+        <li>Dell XPS 13 9315</li>
+        <li>Dell G15 (5521) Special Edition</li>
+    </ul>
+    <a href="dell_models.html" target="_parent" id="f1">See more models</a>
+   </div>
+   <!--Div 3-->
+   <div class="fitem item3">
+    <img src="hp_img.png" alt="hp logo" height="150px" width="270px"><hr>
+    <h4>Latest Models</h4>
+    <ul>
+        <li>HP Pavilion Plus 16 (2023)</li>
+        <li>HP Pavilion Plus 14 (2023)</li>
+        <li>HP Envy x360 15 (AI-powered)</li>
+    </ul>
+    <a align="center"href="hp_models.html" target="_parent">See more models</a>
+   </div>
+   <!--Div 4-->
+   <div class="fitem item4">
+    <img src="llogo2.png" alt="lenovo logo" height="150px" width="270px"><hr>
+    <h4>Latest Models</h4>
+    <ul>
+        <li>Ideapad Flex Lenovo Flex 10</li>
+        <li>Lenovo ThinkPad Z13</li>
+        <li>Lenovo V15 G2</li>
+    </ul>
+    <a align="center"href="lenovo_models.html" target="_parent">See more models</a>
+   </div>
+</div>
+</body>
+</html>
